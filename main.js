@@ -33,7 +33,6 @@ function gotPoses(results){
 
 function draw(){
     image (video,0,0,300,300);
-    circle(noseX, noseY, 20);
   image(clown_nose,noseX,noseY,30,30);
 }
 
